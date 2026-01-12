@@ -38,6 +38,6 @@ def main():
     total_price = calculate_missing_value(manifest, missing_items)
     print(f"Missing Barcodes: {missing_items}")
     print(f"Extra Barcodes: {extra_items}")
-    print(f"Total Value Lost: {round(total_price, 3)}")
+    print(f"Total Value Lost: {total_price:.2f}")
 
 main()
