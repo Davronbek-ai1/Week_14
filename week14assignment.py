@@ -41,7 +41,3 @@ def main():
     print(f"Total Value Lost: {round(total_price, 3)}")
 
 main()
-
-#print(f"Missing Barcodes: {compare_shipment(map_products(manifest), scanned)[0]}")
-#print(f"Extra Barcodes: {compare_shipment(map_products(manifest), scanned)[1]}")
-#print(f"Total Value Lost: {calculate_missing_value(manifest, compare_shipment(map_products(manifest), scanned)[0])}")
